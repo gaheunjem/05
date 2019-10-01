@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[]) {
 	
-	/* practice 1 */ 
+	/* practice 1  
 	
 	int input;
 	
@@ -15,15 +15,22 @@ int main(int argc, char *argv[]) {
 	if(input > 0)
 		printf("positive\n");
 	else
-		printf("non-positive\n");
+		printf("non-positive\n"); */
+		
+	/* practice 2 */
 	
-
+	int a;
 	
-	
+	printf("input a number: ");
+	scanf("%d", &a);
 	
 	if(a > 0)
+		printf("|x| = %d\n", a);
+	else 
+		printf("|x| = %d\n", -a);
 	
-	 
+	
+	
 	
 	return 0;
 }
