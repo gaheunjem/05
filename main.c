@@ -5,16 +5,24 @@
 
 int main(int argc, char *argv[]) {
 	
-	/* ½Ç½À1 */ 
+	/* practice 1 */ 
+	
 	int input;
 	
 	printf("input a number : ");
 	scanf("%d", &input);
 	
 	if(input > 0)
-	printf("positive\n");
+		printf("positive\n");
 	else
-	printf("non-positive\n");
+		printf("non-positive\n");
+	
+
+	
+	
+	
+	if(a > 0)
+	
 	 
 	
 	return 0;
