@@ -5,9 +5,9 @@
 
 int main(int argc, char *argv[]) {
 	
-	/* practice 1  
+	// practice 1  
 	
-	int input;
+/*	int input;
 	
 	printf("input a number : ");
 	scanf("%d", &input);
@@ -15,9 +15,9 @@ int main(int argc, char *argv[]) {
 	if(input > 0)
 		printf("positive\n");
 	else
-		printf("non-positive\n"); */
+		printf("non-positive\n"); 
 		
-	/* practice 2 */
+	// practice 2 
 	
 	int a;
 	
@@ -27,7 +27,29 @@ int main(int argc, char *argv[]) {
 	if(a > 0)
 		printf("|x| = %d\n", a);
 	else 
-		printf("|x| = %d\n", -a);
+		printf("|x| = %d\n", -a); 
+		
+	// practice 3
+	
+	int b;
+	
+	printf("input a number : ");
+	scanf("%d", &b);
+	
+	if(b > 0)
+		printf("positive\n");
+	else if(b < 0)
+		printf("negative\n");
+	else
+		printf("zero"); */
+		
+	//practice 4
+	
+	
+	
+	 
+	
+	
 	
 	
 	
