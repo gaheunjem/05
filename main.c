@@ -7,7 +7,7 @@ int main(int argc, char *argv[]) {
 	
 	// practice 1  
 	
-/*	int input;
+	int input;
 	
 	printf("input a number : ");
 	scanf("%d", &input);
@@ -41,17 +41,38 @@ int main(int argc, char *argv[]) {
 	else if(b < 0)
 		printf("negative\n");
 	else
-		printf("zero"); */
+		printf("zero"); 
 		
-	//practice 4
+	// project 4
 	
+	int i=0, meter;
 	
+	while(i<3)
+	{
+		meter = i*1609;
+		printf("%d mile is %d m\n", i, meter);
+		i++;
+	} 
 	
-	 
+	// project 5
 	
+	int i;
+	for (i=0; i<10; i++)
+		printf("hello world!\n"); 
 	
+	//project 6 
 	
+	int i=0;
+	char c;
 	
+	printf ("input a string : ");
+	while((c=getchar()) !='\n')
+	{
+		if(c >= '0' && c <= '9')
+			i++;		
+	}
+	
+	printf("the number of digit is %d", i);
 	
 	
 	return 0;
