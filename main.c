@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[]) {
 	
-	// practice 1  
+	/* // practice 1  
 	
 	int input;
 	
@@ -72,8 +72,30 @@ int main(int argc, char *argv[]) {
 			i++;		
 	}
 	
-	printf("the number of digit is %d", i);
+	printf("the number of digit is %d", i); */
 	
+	//project 7
 	
+	int answer = 59;
+	int input;
+	int cnt = 0;
+	
+	do
+	{
+		printf("input answer :");
+		scanf("%d", &input);
+		
+		if (input < answer)
+		{
+			printf("low!\n");
+		}
+		else if (input > answer)
+		{
+			printf("high!\n");
+		}
+		cnt++;
+	}
+	while(input != answer);
+	printf("congratulation. trial : %i\n", cnt);
 	return 0;
 }
