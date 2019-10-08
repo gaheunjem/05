@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[]) {
 	
-	/* // practice 1  
+	 // practice 1  
 	
 	int input;
 	
@@ -72,7 +72,7 @@ int main(int argc, char *argv[]) {
 			i++;		
 	}
 	
-	printf("the number of digit is %d", i); */
+	printf("the number of digit is %d", i); 
 	
 	//project 7
 	
